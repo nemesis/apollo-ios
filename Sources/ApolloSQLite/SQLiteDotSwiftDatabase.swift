@@ -4,6 +4,8 @@ import Apollo
 #endif
 import SQLite
 
+typealias Expression = SQLite.Expression
+
 public final class SQLiteDotSwiftDatabase: SQLiteDatabase {
   private var db: Connection!
   
